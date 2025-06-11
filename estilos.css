@@ -86,3 +86,9 @@ main {
   transform: scale(1.05);
   border-color: var(--acento);
 }
+
+nav button a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+}
