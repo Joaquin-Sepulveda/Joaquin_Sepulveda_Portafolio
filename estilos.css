@@ -134,6 +134,54 @@ main {
   color: var(--gris);
 }
 
+.social-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.social-block {
+  text-align: center;
+}
+
+.social-block h4 {
+  margin-bottom: 0.5rem;
+  color: var(--acento-claro);
+  font-size: 1.2rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-links a {
+  font-size: 2rem;
+  color: var(--texto);
+  transition: transform 0.3s, color 0.3s;
+}
+
+.social-links a:hover {
+  color: var(--acento-claro);
+  transform: scale(1.2);
+}
+
+.icon-img {
+  width: 32px;
+  height: 32px;
+  filter: brightness(0) invert(1);
+  transition: transform 0.3s, filter 0.3s;
+}
+
+.icon-img:hover {
+  transform: scale(1.2);
+  filter: brightness(0) invert(66%) sepia(100%) saturate(500%) hue-rotate(270deg);
+}
+
 /* PROYECTOS */
 #proyectos {
   padding: 4rem 2rem;
